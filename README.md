@@ -102,7 +102,7 @@ area=<input type="text" name="area" value="{{area}}"></input></br>
 ## VIEWS.PY:
 from django.shortcuts import render
 
-# Create your views here.
+Create your views here.
 def areacalculation(request):
     context = {}
     context["area"] = "0"
@@ -120,7 +120,7 @@ def areacalculation(request):
  ## URLS.PY:
     from django.shortcuts import render
 
-# Create your views here.
+Create your views here.
 def areacalculation(request):
     context = {}
     context["area"] = "0"
